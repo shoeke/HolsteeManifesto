@@ -19,6 +19,14 @@ font-family: Merriweather;
 text-transform: none;
 	font-size: 15px;
 }
+
+.fourteen {
+	text-align: center;
+	font-weight: bold;
+	font-style: oblique;
+	word-spacing: 5px;
+	letter-spacing:2px;
+}
 .three p {
 	padding-top: 16px;
 }
@@ -51,7 +59,7 @@ text-align: center;
 .wrapper {
 	border: 2px solid black;
 	padding: 20px;
-	width: 700px;
+	width: 600px;
 	margin: 0 auto;
 }
 .left-column-top {
@@ -76,6 +84,12 @@ text-align: center;
 .stop-box {
 	width: 100%;
 	}
+
+.layerup, .layer-cover {
+position: relative;
+
+}
+
 .bottom {
 	clear: both;
 	border: 2x solid blue;
@@ -154,16 +168,16 @@ height: 225px;
 	height: 170px;
 	position: absolute;
 	z-index: 98;
-	top: 450px;
-	left: 22px;
+	top: 75px;
+	left: 0px;
 	border: 10px solid white;
 }
 .whiteCover {
 	background: white;
-    width: 160px;
+  width: 160px;
 	height: 57px;
 	position: absolute;
 	z-index: 99;
-	top: 170px;
+	top: -121px;
 	left: 180px;
 }
