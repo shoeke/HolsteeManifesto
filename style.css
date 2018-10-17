@@ -1,0 +1,169 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+p {
+   font-family: "teko";
+	color:white;
+	text-transform: uppercase;
+	font-size: 16px;
+	letter-spacing: .35px;
+	padding: 10px;
+}
+.two p, .four p, .five-plus p, .eight p, .twelve p, .thirteen p {
+	color: #871e35;
+}
+.four p, .eight p, .eleven p, .fourteen p {
+font-family: Merriweather;
+text-transform: none;
+	font-size: 15px;
+}
+.three p {
+	padding-top: 16px;
+}
+.five p {
+font-size: 28px;
+line-height: 32px;
+}
+.five-plus p {
+padding-top: 102px;
+line-height: 16px;
+}
+.six p {
+writing-mode: vertical-rl;
+font-size: 28px
+}
+.nine p {
+	font-size: 14px;
+}
+.ten p {
+	text-align: right;
+	padding-top: 25px;
+}
+.twelve p {
+	font-size: 18px;
+}
+.thirteen p {
+font-size: 24px;
+text-align: center;
+}
+.wrapper {
+	border: 2px solid black;
+	padding: 20px;
+	width: 700px;
+	margin: 0 auto;
+}
+.left-column-top {
+	width: 60%;
+	height: auto;
+	float: left;
+}
+.spacer {
+	height: 10px;
+}
+.right-column {
+	width: 40%;
+	height: auto;
+	float: right;
+}
+.left-column-lower {
+	border: 4px solid yellow;
+	width: 60%;
+	height: auto;
+	float:left;
+}
+.stop-box {
+	width: 100%;
+	}
+.bottom {
+	clear: both;
+	border: 2x solid blue;
+}
+.box {
+	margin: 10px;
+	height: 90px;
+}
+.orange {
+	background: #fd9345;
+}
+.pink {
+	background: #ffd9f0;
+}
+.red {
+	background: #fd1759;
+}
+.lavender {
+	background: #ca97d8;
+}
+.purple {
+	background: #554a84;
+}
+.yellow {
+	background: #f3df36;
+}
+.green {
+	background: #399897;
+}
+.two, .nine, .fourteen {
+	height: 30px;
+}
+.three {
+	height: 120px;
+	margin-bottom: 0;
+}
+.ten {
+	height: 120px;
+	margin-top: 66px;
+}
+.one, .two, .three {
+	width: 80%;
+	margin-left: 20%;
+	}
+.four, .thirteen {
+	height: 60px;
+	padding-top: 10px;
+}
+.four, .five, .five-plus {
+	float; left;
+	width: 78%;
+}
+.five {
+	height: 155px;
+	margin-bottom: 0;
+}
+.five-plus {
+height: 155px;
+margin-top:0;
+}
+.six {
+	width: 15%;
+	height: 390px;
+	float: right;
+	margin-top: -10px;
+}
+.four, .six {
+	margin-top: 0;
+	margin-right: 0;
+}
+.eleven {
+height: 225px;
+}
+.seven {
+	width: 170px;
+	height: 170px;
+	position: absolute;
+	z-index: 98;
+	top: 450px;
+	left: 22px;
+	border: 10px solid white;
+}
+.whiteCover {
+	background: white;
+    width: 160px;
+	height: 57px;
+	position: absolute;
+	z-index: 99;
+	top: 170px;
+	left: 180px;
+}
